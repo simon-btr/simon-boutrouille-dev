@@ -52,7 +52,7 @@ function Me() {
           learning new skills to enhance my development capabilities.
         </p>
         <a href={CV} download>
-          <button className="hover">Resume</button>
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>
