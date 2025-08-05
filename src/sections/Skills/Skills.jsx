@@ -5,7 +5,7 @@ import SkillList from "../../common/SkillList";
 import { useTheme } from "../../common/ThemeContext.jsx";
 
 function Skills() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
   const checkMarkIcon = theme === "light" ? checkMarkLight : checkMarkDark;
 

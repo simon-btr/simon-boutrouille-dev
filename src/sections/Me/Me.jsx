@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./MeStyles.module.css";
 import meImg from "../../assets/me.png";
 import sun from "../../assets/sun.svg";
