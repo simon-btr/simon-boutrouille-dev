@@ -1,6 +1,5 @@
 import styles from "./ProjectsStyles.module.css";
 import minesweeper from "../../assets/minesweeper.png";
-import cassebrique from "../../assets/cassebrique.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -13,12 +12,6 @@ function Projects() {
         link={""}
         title={"Minesweeper"}
         description={"Python game"}
-      />
-      <ProjectCard
-        src={cassebrique}
-        link={""}
-        title={"Casse Brique"}
-        description={"Small javascript game"}
       />
       </div>
     </section>
