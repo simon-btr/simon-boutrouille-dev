@@ -9,7 +9,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
         src={minesweeper}
-        link={""}
+        link={"https://github.com/simon-btr/minesweeper"}
         title={"Minesweeper"}
         description={"Python game"}
       />
