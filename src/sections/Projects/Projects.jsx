@@ -1,5 +1,6 @@
 import styles from "./ProjectsStyles.module.css";
 import minesweeper from "../../assets/minesweeper.png";
+import codelab from "../../assets/codelab.png";
 import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
@@ -12,6 +13,12 @@ function Projects() {
         link={"https://github.com/simon-btr/minesweeper"}
         title={"Minesweeper"}
         description={"Python game"}
+      />
+      <ProjectCard
+        src={codelab}
+        link={"https://code-lab-sb.netlify.app"}
+        title={"Code Lab"}
+        description={"My own coding lab website"}
       />
       </div>
     </section>
